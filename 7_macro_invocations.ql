@@ -9,5 +9,5 @@ import cpp
 
 // More compact version with the Macro variable implicit
 from MacroInvocation mi
-where mi.getMacro().getName().regexpMatch("ntho(s|l|ll)")
+where mi.getMacro().getName().regexpMatch("ntoh(s|l|ll)")
 select mi
